@@ -2,7 +2,7 @@
     $(document).ready(function () {
 
         $.ajax({
-            url: "https://jsonplaceholder.typicode.com/posts",
+            url: "file.json",
             type: "GET",
             success: function (data) {
                 // $('#load-data').append(data.id + "<br>" + data.title + "<br>" + data.body); //single data
